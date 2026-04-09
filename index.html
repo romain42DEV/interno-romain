@@ -42,8 +42,8 @@
     </header>
 
     <main>
-        <section class="section-hero flex align-items justify-content container-1200"> <!-- section hero -->
-            <div> <!-- div qui englobe le titre, le paragraphe et le lien -->
+        <section class="section-hero flex align-items"> <!-- section hero -->
+            <div class="container-1000"> <!-- div qui englobe le titre, le paragraphe et le lien -->
                 <h1>Rendez votre maison unique</h1>
                 <p>Nous croyons que chaque espace a le potentiel d'être exceptionnel.</p>
                 <a href="">Construisons votre projet</a>
@@ -73,8 +73,8 @@
         </section>
 
         <section class="container-1200"> <!-- section vie élégante -->
-            <div class="flex w-50"> <!-- div qui englobe card et l'image -->
-                <div> <!-- div qui englobe la card -->
+            <div class="flex"> <!-- div qui englobe card et l'image -->
+                <div class="w-50"> <!-- div qui englobe la card -->
                     <div> <!-- div qui englobe le titre et le paragraphe -->
                         <h3>Nous créons l'art De la vie élégante</h3>
                         <p>Transformez votre maison en un espace élégant et fonctionnel avec nos services de design
@@ -85,7 +85,7 @@
                         <div> <!-- div qui englobe le telephone et le numero, la phrase et le lien-->
                             <div class="flex"> <!-- div qui englobe le telephone, le numero et la phrase -->
                                 <div> <!-- div qui englobe le telephone -->
-                                    <img src="assets/Call.png" alt="telephone" class="w-100">
+                                    <img src="assets/Call.png" alt="telephone">
                                 </div>
                                 <div> <!-- div qui englobe le numero et la phrase -->
                                     <p>012345678</p>
@@ -99,21 +99,21 @@
                     </a>
                 </div>
 
-                <div> <!-- div qui englobe l'image -->
-                    <img src="assets/image-article.jpg" alt="cuisine" class="w-100">
+                <div class="w-50"> <!-- div qui englobe l'image -->
+                    <img src="assets/image-article.jpg" alt="cuisine">
                 </div>
             </div>
         </section>
 
         <section class="container-1200"> <!-- section confiance -->
-            <div class="flex w-50"> <!-- div qui englobe titre et les cartes -->
+            <div> <!-- div qui englobe titre et les cartes -->
                 <h3>Ils nous ont fait confiance</h3>
-                <div> <!-- div qui englobe les cartes  -->
-                    <div> <!-- cate 1 -->
+                <div class="flex"> <!-- div qui englobe les cartes  -->
+                    <div class="w-30"> <!-- cate 1 -->
                         <div> <!-- div qui englobe l'image, le titre et le paragraphe -->
                             <div> <!-- div qui englobe l'image et le titre -->
                                 <div> <!-- div qui englobe l'image -->
-                                    <img src="assets/user1.png" alt="user1" class="w-100">
+                                    <img src="assets/user1.png" alt="user1">
                                 </div>
                                 <div> <!-- div qui englobe le titre -->
                                     <h3>Nattasha Mith Lyon</h3>
@@ -125,11 +125,11 @@
                         </div>
                     </div>
 
-                    <div> <!-- cate 2 -->
+                    <div class="w-30"> <!-- cate 2 -->
                         <div> <!-- div qui englobe l'image, le titre et le paragraphe -->
                             <div> <!-- div qui englobe l'image et le titre -->
                                 <div> <!-- div qui englobe l'image -->
-                                    <img src="assets/user2.png" alt="user2" class="w-100">
+                                    <img src="assets/user2.png" alt="user2">
                                 </div>
                                 <div> <!-- div qui englobe le titre -->
                                     <h3>Mary Galario Agen</h3>
@@ -140,11 +140,11 @@
                         </div>
                     </div>
 
-                    <div> <!-- cate 3 -->
+                    <div class="w-30"> <!-- cate 3 -->
                         <div> <!-- div qui englobe l'image, le titre et le paragraphe -->
                             <div> <!-- div qui englobe l'image et le titre -->
                                 <div> <!-- div qui englobe l'image -->
-                                    <img src="assets/user3" alt="user3" class="w-100">
+                                    <img src="assets/user3.png" alt="user3">
                                 </div>
                                 <div> <!-- div qui englobe le titre -->
                                     <h3>Benny Roll Paris</h3>
@@ -160,12 +160,12 @@
         </section>
 
         <section class="container-1200"> <!-- section des marques -->
-            <div class="flex w-50"> <!-- div qui englobe les marques -->
-                <img src="assets/moderne-home.png" alt="modern" class="w-100">
-                <img src="assets/vintage.png" alt="vintage" class="w-100">
-                <img src="assets/brand.png" alt="brand" class="w-100">
-                <img src="assets/nature-home.png" alt="nature" class="w-100">
-                <img src="assets/classic-design.png" alt="classic" class="w-100">
+            <div class="flex align-items"> <!-- div qui englobe les marques -->
+                <img src="assets/moderne-home.png" alt="modern" class="w-20">
+                <img src="assets/vintage.png" alt="vintage" class="w-20">
+                <img src="assets/brand.png" alt="brand" class="w-20">
+                <img src="assets/nature-home.png" alt="nature" class="w-20">
+                <img src="assets/classic-design.png" alt="classic" class="w-20">
             </div>
         </section>
 
@@ -175,8 +175,8 @@
                 <p>Explorez notre portfolio pour découvrir l'univers interno.</p>
             </div>
 
-            <div class="flex w-50"> <!-- div qui englobe les cards -->
-                <div> <!-- div qui englobe la card 1 -->
+            <div class="flex space-between"> <!-- div qui englobe les cards -->
+                <div class="w-48"> <!-- div qui englobe la card 1 -->
                     <div> <!-- div qui englobe l'image -->
                         <img src="assets/cuisine.jpg" alt="cuisine" class="w-100">
                     </div>
@@ -187,12 +187,14 @@
                         </div>
 
                         <div> <!-- div qui englobe le lien -->
-                            <a href=""></a>
+                            <a href="">
+                                <i class="ph-fill ph-caret-circle-right"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
 
-                <div> <!-- div qui englobe la card 2 -->
+                <div class="w-48"> <!-- div qui englobe la card 2 -->
                     <div> <!-- div qui englobe l'image -->
                         <img src="assets/entree-et-garage.jpg" alt="Entrée et garage" class="w-100">
                     </div>
@@ -208,7 +210,7 @@
                     </div>
                 </div>
 
-                <div> <!-- div qui englobe la card 3 -->
+                <div class="W-48"> <!-- div qui englobe la card 3 -->
                     <div> <!-- div qui englobe l'image -->
                         <img src="assets/bureau-et-chambre.jpg" alt="Bureau et chambre" class="w-100">
                     </div>
@@ -224,7 +226,7 @@
                     </div>
                 </div>
 
-                <div> <!-- div qui englobe la card 4 -->
+                <div class="w-48"> <!-- div qui englobe la card 4 -->
                     <div> <!-- div qui englobe l'image -->
                         <img src="assets/cabinet-et-salon.jpg" alt="Cabinet et salon" class="w-100">
                     </div>

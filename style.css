@@ -19,6 +19,12 @@ header {
     background-size: cover;
 }
 
+
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+
 .align-items {
     align-items: center;
 }
@@ -27,22 +33,30 @@ header {
     justify-content: center;
 }
 
-.w-50{
-    width: 50px;
+.space-between {
+    justify-content: space-between;
 }
 
-.w-100{
-    width: 100%;
+.w-20{
+    width: 20%;
 }
 
 .w-30{
     width: 30%;
 }
 
-.flex{
-    display:flex;
-    flex-wrap: wrap;
+.w-48{
+    width: 48%;
 }
+
+.w-50{
+    width: 50%;
+}
+
+.w-100{
+    width: 100%;
+}
+
 
 .container-1200{
     max-width: 1200px;
@@ -51,8 +65,16 @@ header {
     margin-right: auto;
 }
 
+.container-1000{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 a{
     text-decoration: none;
+    color: black;
 }
 
 .black{
