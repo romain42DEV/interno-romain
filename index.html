@@ -5,12 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interno</title>
+
+     <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
+    <header class="flex">
 
         <div>
             <a href="index.html">
@@ -30,7 +42,7 @@
     </header>
 
     <main>
-        <section> <!-- section hero -->
+        <section class="section-hero flex align-items justify-content container-1200"> <!-- section hero -->
             <div> <!-- div qui englobe le titre, le paragraphe et le lien -->
                 <h1>Rendez votre maison unique</h1>
                 <p>Nous croyons que chaque espace a le potentiel d'être exceptionnel.</p>
@@ -38,21 +50,21 @@
             </div>
         </section>
 
-        <section> <!-- section de vision créativité execcution -->
-            <div> <!-- div qui englobe vision créativité execcution -->
-                <div> <!-- div qui englobe vision -->
+        <section class="container-1200"> <!-- section de vision créativité execcution -->
+            <div class="flex"> <!-- div qui englobe vision créativité execcution -->
+                <div class="w-30"> <!-- div qui englobe vision -->
                     <h2>Vision</h2>
                     <p>Notre processus commence par comprendre votre vision. Nous écoutons attentivement vos idées, vos
                         rêves et vos besoins pour créer un design qui vous correspond.</p>
                 </div>
 
-                <div> <!-- div qui englobe créativité -->
+                <div class="w-30"> <!-- div qui englobe créativité -->
                     <h2>Créativité</h2>
                     <p>Notre équipe de designers explore des concepts uniques pour chaque projet, en veillant à ce que
                         chaque détail soit une expression authentique de votre personnalité.</p>
                 </div>
 
-                <div> <!-- div qui englobe execcution -->
+                <div class="w-30"> <!-- div qui englobe execcution -->
                     <h2>Execcution Impeccable</h2>
                     <p>Nous nous engageons à fournir des résultats exceptionnels. Notre équipe supervise chaque étape du
                         processus, de la conception initiale à l'installation finale.</p>
@@ -60,8 +72,8 @@
             </div>
         </section>
 
-        <section> <!-- section vie élégante -->
-            <div> <!-- div qui englobe card et l'image -->
+        <section class="container-1200"> <!-- section vie élégante -->
+            <div class="flex w-50"> <!-- div qui englobe card et l'image -->
                 <div> <!-- div qui englobe la card -->
                     <div> <!-- div qui englobe le titre et le paragraphe -->
                         <h3>Nous créons l'art De la vie élégante</h3>
@@ -69,37 +81,39 @@
                             résidentiel
                             sur mesure.</p>
                     </div>
-                    <div> <!-- div qui englobe le telephone et le numero, la phrase et le lien-->
-                        <div> <!-- div qui englobe le telephone, le numero et la phrase -->
-                            <div> <!-- div qui englobe le telephone -->
-                                <img src="" alt="telephone">
+                    <a href="">
+                        <div> <!-- div qui englobe le telephone et le numero, la phrase et le lien-->
+                            <div class="flex"> <!-- div qui englobe le telephone, le numero et la phrase -->
+                                <div> <!-- div qui englobe le telephone -->
+                                    <img src="assets/Call.png" alt="telephone" class="w-100">
+                                </div>
+                                <div> <!-- div qui englobe le numero et la phrase -->
+                                    <p>012345678</p>
+                                    <p>Apellez-nous n'importe quand</p>
+                                </div>
                             </div>
-                            <div> <!-- div qui englobe le numero et la phrase -->
-                                <p>012345678</p>
-                                <p>Apellez-nous n'importe quand</p>
+                            <div> <!-- div qui englobe le lien -->
+                                <a href="">Obtenez un devis gratuit</a>
                             </div>
                         </div>
-                        <div> <!-- div qui englobe le lien -->
-                            <a href="">Obtenez un devis gratuit</a>
-                        </div>
-                    </div>
+                    </a>
                 </div>
 
                 <div> <!-- div qui englobe l'image -->
-                    <img src="" alt="cuisine">
+                    <img src="assets/image-article.jpg" alt="cuisine" class="w-100">
                 </div>
             </div>
         </section>
 
-        <section> <!-- section confiance -->
-            <div> <!-- div qui englobe titre et les cartes -->
+        <section class="container-1200"> <!-- section confiance -->
+            <div class="flex w-50"> <!-- div qui englobe titre et les cartes -->
                 <h3>Ils nous ont fait confiance</h3>
                 <div> <!-- div qui englobe les cartes  -->
                     <div> <!-- cate 1 -->
                         <div> <!-- div qui englobe l'image, le titre et le paragraphe -->
                             <div> <!-- div qui englobe l'image et le titre -->
                                 <div> <!-- div qui englobe l'image -->
-                                    <img src="" alt="">
+                                    <img src="assets/user1.png" alt="user1" class="w-100">
                                 </div>
                                 <div> <!-- div qui englobe le titre -->
                                     <h3>Nattasha Mith Lyon</h3>
@@ -115,7 +129,7 @@
                         <div> <!-- div qui englobe l'image, le titre et le paragraphe -->
                             <div> <!-- div qui englobe l'image et le titre -->
                                 <div> <!-- div qui englobe l'image -->
-                                    <img src="" alt="">
+                                    <img src="assets/user2.png" alt="user2" class="w-100">
                                 </div>
                                 <div> <!-- div qui englobe le titre -->
                                     <h3>Mary Galario Agen</h3>
@@ -130,7 +144,7 @@
                         <div> <!-- div qui englobe l'image, le titre et le paragraphe -->
                             <div> <!-- div qui englobe l'image et le titre -->
                                 <div> <!-- div qui englobe l'image -->
-                                    <img src="" alt="">
+                                    <img src="assets/user3" alt="user3" class="w-100">
                                 </div>
                                 <div> <!-- div qui englobe le titre -->
                                     <h3>Benny Roll Paris</h3>
@@ -145,26 +159,26 @@
 
         </section>
 
-        <section> <!-- section des marques -->
-            <div> <!-- div qui englobe les marques -->
-                <img src="assets/moderne-home.png" alt="modern">
-                <img src="assets/vintage.png" alt="vintage">
-                <img src="assets/brand.png" alt="brand">
-                <img src="assets/nature-home.png" alt="nature">
-                <img src="assets/classic-design.png" alt="classic">
+        <section class="container-1200"> <!-- section des marques -->
+            <div class="flex w-50"> <!-- div qui englobe les marques -->
+                <img src="assets/moderne-home.png" alt="modern" class="w-100">
+                <img src="assets/vintage.png" alt="vintage" class="w-100">
+                <img src="assets/brand.png" alt="brand" class="w-100">
+                <img src="assets/nature-home.png" alt="nature" class="w-100">
+                <img src="assets/classic-design.png" alt="classic" class="w-100">
             </div>
         </section>
 
-        <section> <!-- section projets -->
+        <section class="container-1200"> <!-- section projets -->
             <div> <!-- div qui englobe le titre et le paragraphe -->
                 <h2>Nos projets</h2>
                 <p>Explorez notre portfolio pour découvrir l'univers interno.</p>
             </div>
 
-            <div> <!-- div qui englobe les cards -->
+            <div class="flex w-50"> <!-- div qui englobe les cards -->
                 <div> <!-- div qui englobe la card 1 -->
                     <div> <!-- div qui englobe l'image -->
-                        <img src="" alt="cuisine">
+                        <img src="assets/cuisine.jpg" alt="cuisine" class="w-100">
                     </div>
                     <div> <!-- div qui englobe le titre, le paragraphe et le lien -->
                         <div> <!-- div qui englobe le titre et le paragraphe -->
@@ -180,7 +194,7 @@
 
                 <div> <!-- div qui englobe la card 2 -->
                     <div> <!-- div qui englobe l'image -->
-                        <img src="" alt="Entrée et garage">
+                        <img src="assets/entree-et-garage.jpg" alt="Entrée et garage" class="w-100">
                     </div>
                     <div> <!-- div qui englobe le titre, le paragraphe et le lien -->
                         <div> <!-- div qui englobe le titre et le paragraphe -->
@@ -196,7 +210,7 @@
 
                 <div> <!-- div qui englobe la card 3 -->
                     <div> <!-- div qui englobe l'image -->
-                        <img src="" alt="Bureau et chambre">
+                        <img src="assets/bureau-et-chambre.jpg" alt="Bureau et chambre" class="w-100">
                     </div>
                     <div> <!-- div qui englobe le titre, le paragraphe et le lien -->
                         <div> <!-- div qui englobe le titre et le paragraphe -->
@@ -212,7 +226,7 @@
 
                 <div> <!-- div qui englobe la card 4 -->
                     <div> <!-- div qui englobe l'image -->
-                        <img src="" alt="Cabinet et salon">
+                        <img src="assets/cabinet-et-salon.jpg" alt="Cabinet et salon" class="w-100">
                     </div>
                     <div> <!-- div qui englobe le titre, le paragraphe et le lien -->
                         <div> <!-- div qui englobe le titre et le paragraphe -->
@@ -230,7 +244,7 @@
 
         </section>
 
-        <section> <!-- section communauté -->
+        <section class="container-1200"> <!-- section communauté -->
             <div> <!-- div qui englobe le titre -->
                 <h3>Rejoignez la communauté interno</h3>
             </div>
@@ -240,12 +254,12 @@
             </div>
         </section>
 
-        <footer>
-            <div> <!-- div qui englobe interno et contact -->
+        <footer class="container-1200">
+            <div class="flex"> <!-- div qui englobe interno et contact -->
                 <div> <!-- div qui englobe interno, le pararagraphe et les logos-->
                     <div> <!-- div qui englobe interno et le paragraphe -->
                         <div> <!-- div qui englobe interno -->
-                            <img src="" alt="interno">
+                            <img src="assets/Logo.png" alt="interno">
                         </div>
                         <div> <!-- div qui englobe le paragraphe -->
                             <p>Prêt à tout changer ? Contactez-nous dès aujourd'hui pour planifier un rendez-vous !</p>
@@ -253,10 +267,18 @@
                     </div>
 
                     <div> <!-- div qui englobe les logos -->
-                        <a href="assets/facebook.png"></a>
-                        <a href="assets/twitter.png"></a>
-                        <a href="assets/linkedin.png"></a>
-                        <a href="assets/insta.png"></a>
+                        <a href="">
+                            <i class="ph-fill ph-facebook-logo black font-size"></i>
+                        </a>
+                        <a href="">
+                            <i class="ph-fill ph-twitter-logo black font-size"></i>
+                        </a>
+                        <a href="">
+                            <i class="ph-fill ph-linkedin-logo black font-size"></i>
+                        </a>
+                        <a href="">
+                            <i class="ph-fill ph-instagram-logo black font-size"></i>
+                        </a>
                     </div>
 
                 </div>
@@ -275,7 +297,7 @@
             </div>
 
         </footer>
-        
+
     </main>
 
 </body>

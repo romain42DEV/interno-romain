@@ -3,3 +3,62 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.section-hero {
+    width: 1280px;
+    height: 100vh;
+    /* 100% de la hauteur de l'écran */
+    background-image: url(assets/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.justify-content {
+    justify-content: center;
+}
+
+.w-50{
+    width: 50px;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.container-1200{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.black{
+    color:black;
+}
+
+.font-size{
+    font-size: 22px;
+}
