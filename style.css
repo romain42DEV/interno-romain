@@ -118,6 +118,9 @@ p {
     background-color: black;
 }
 
+i {
+    font-weight: bold;
+}
 .container-1200{
     max-width: 1200px;
     width: 100%;
@@ -180,10 +183,10 @@ a{
     font-size: 22px;
 }
 
-.font-size-70{
+.font-size-50{
     font-size: 50px;
 }
 
 .border-radius-20 {
-    border-radius: 20px;
+    border-radius: 50px;
 }
