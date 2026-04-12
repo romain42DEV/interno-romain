@@ -32,6 +32,16 @@ header {
     flex-wrap: nowrap;
 }
 
+.flexes{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.center {
+    text-align: center;
+}
+
 .align-items {
     align-items: center;
 }
@@ -64,7 +74,6 @@ h3 {
     font-family: "DM Serif Display", serif;
     font-weight: 400;
     font-size: 25px;
-    text-align: center;
 }
 
 p {
@@ -97,8 +106,16 @@ p {
     background-color: #F4F0EC;
 }
 
+.bg-noir-clair{
+    background-color: #292F36;
+}
+
 .bg-blanc{
     background-color: white;
+}
+
+.bg-black{
+    background-color: black;
 }
 
 .container-1200{
@@ -128,7 +145,7 @@ p {
 }
 
 .margin-left-50{
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .margin-top-20{
@@ -139,6 +156,10 @@ a{
     text-decoration: none;
     color: black;
     font-family: "Jost", sans-serif;
+}
+
+.beige {
+    color: #F4F0EC;
 }
 
 .btn {
@@ -158,6 +179,10 @@ a{
 
 .font-size{
     font-size: 22px;
+}
+
+.font-size-70{
+    font-size: 50px;
 }
 
 .border-radius-20 {
