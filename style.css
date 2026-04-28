@@ -9,11 +9,15 @@
 header {
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 10px;
+}
+
+nav {
+    padding: 10px;
+    gap: 30px;
 }
 
 .section-hero {
-    width: 1280px;
     height: 100vh;
     /* 100% de la hauteur de l'écran */
     background-image: url(assets/Banner.jpg);
